@@ -4,7 +4,7 @@ const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target
 document.querySelectorAll('.rv').forEach(el=>io.observe(el));
 // typing words
 const w=document.getElementById('type');
-if(w){const words=['Security Cameras','Smart Networks','Home Theaters','Tech Training'];let i=0,j=0,d=false;
+if(w){const words=['Software Development','Smart Networks','Database Management','Tech Training'];let i=0,j=0,d=false;
 (function t(){const s=words[i];w.textContent=s.slice(0,j);if(!d&&j++==s.length){d=true;return setTimeout(t,1600)}
 if(d&&j--==0){d=false;i=(i+1)%words.length}setTimeout(t,d?40:85)})()}
 // counters

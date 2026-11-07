@@ -28,7 +28,7 @@ nav a.cta{background:var(--o);color:#fff}nav a.cta:hover{background:#d85a00}
 .orbit{position:relative;aspect-ratio:1;max-width:380px;margin:auto;width:100%}
 .orbit .core{position:absolute;inset:27%;background:#fff;border-radius:50%;display:grid;place-items:center;box-shadow:0 0 0 12px #f26a0a33,0 0 70px #f26a0a99;animation:pulse 3s infinite}
 .orbit .core img{width:86%}
-@keyframes pulse{50%{box-shadow:0 0 0 22px #f26a0a1f,0 0 90px #f26a0acc}}
+@keyframes pulse{50%{box-shadow:0 0 0 22px #13035c1f,0 0 90px #f26a0acc}}
 .ring{position:absolute;inset:0;border:2px dashed #ffffff33;border-radius:50%;animation:spin 24s linear infinite}
 .ring.r2{inset:12%;animation-duration:16s;animation-direction:reverse}
 .ring i{position:absolute;top:-22px;left:calc(50% - 22px);width:44px;height:44px;border-radius:12px;background:var(--o);display:grid;place-items:center;font-style:normal;font-size:1.3rem;animation:spin 24s linear infinite reverse}

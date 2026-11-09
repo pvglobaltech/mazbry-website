@@ -23,5 +23,5 @@ document.querySelectorAll('[data-cat]').forEach(c=>c.style.display=(b.dataset.f=
 // contact form -> opens email client
 const f=document.getElementById('cform');
 if(f)f.onsubmit=e=>{e.preventDefault();const d=new FormData(f);
-location.href='mailto:Bilamin@mazbrymsllc.com?subject='+encodeURIComponent('Website enquiry: '+d.get('service'))+'&body='+encodeURIComponent('Name: '+d.get('name')+'\nPhone: '+d.get('phone')+'\nEmail: '+d.get('email')+'\n\n'+d.get('msg'));
+location.href='mailto:info@mazbrymsllc.com?subject='+encodeURIComponent('Website enquiry: '+d.get('service'))+'&body='+encodeURIComponent('Name: '+d.get('name')+'\nPhone: '+d.get('phone')+'\nEmail: '+d.get('email')+'\n\n'+d.get('msg'));
 document.getElementById('ok').style.display='block'};
